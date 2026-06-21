@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-21",
+  "total_papers": 8,
+  "total_fields": 4,
+  "top3": [
+    {
+      "title": "Assessing Connectivity Thresholds Under Habitat Loss Scenarios for Threatened Amphibians and Squamate Reptiles in the Eastern Brazilian Amazon",
+      "reason": "서식지 잔존율 32% 이하에서 양서·파충류의 광역 연결성이 급격히 붕괴된다는 실증 결과는 비바리뱀 서식지 보전 최소 면적 기준 설정에 직접 활용 가능하다. 분산 능력이 낮은 종일수록 더 높은 서식지 잔존율에서 연결성 임계값에 도달하므로, 뱀류 보전 계획 시 국제 기준(30%) 이상의 면적 확보가 필요함을 시사한다."
+    },
+    {
+      "title": "Thresholding species distribution models: Simple approaches for land-use planning in multifunctional landscapes",
+      "reason": "SDM 임계값 설정을 평균값 방식으로 단순화해도 복잡한 방법과 동등한 성능을 보임을 검증했다. EIA 및 토지이용계획에 SDM을 실용적으로 적용하는 가이드라인을 제공하여 비바리뱀 서식지 적합성 지도 작성의 현장 활용도를 높일 수 있다."
+    },
+    {
+      "title": "An updated review of fish species reintroductions: global lessons to inform future riverine fish conservation in the UK",
+      "reason": "전 세계 324건 담수어류 재도입 사례 메타분석을 통해 성공 요인(위협 제거, 서식지 품질, 유전 다양성)을 체계화했다. 담수 생태계 의존 멸종위기종 복원 계획 전반에 필수 참고문헌으로, 비바리뱀 서식 하천 생태계 복원 계획에도 원칙적 지침으로 활용된다."
+    }
+  ],
+  "fields": [
+    {
+      "name": "경관생태 및 서식지 연결성",
+      "papers": [
+        {
+          "title": "Thresholding species distribution models: Simple approaches for land-use planning in multifunctional landscapes",
+          "meta": "Abdel Moniem H. 外 / Methods in Ecology and Evolution / 2026 / DOI: 10.1111/2041-210x.70226",
+          "objective": "SDM의 연속형 예측값을 이진형으로 변환하는 임계값 설정 방법을 단순화하여 환경영향평가(EIA) 및 다기능 경관의 토지이용계획에 실용적으로 적용하는 접근법 개발",
+          "method": "Alberta 지역 조류 다분류군 SDM에 여러 임계값 방법(평균값, TSS 최적화, 최대 카파 등)을 비교 적용. 산업 교란 시나리오에 따른 서식지 손실 추정 정확도를 교차 검증으로 평가",
+          "results": "① 평균값 임계법이 복잡한 기법과 동등하거나 우수한 성능 발휘. ② 임계처리 모델이 연속형 모델보다 토지이용 변화에 대한 서식지 손실을 더 현실적으로 반영. ③ 단순 임계법은 데이터 요구량이 낮고 직관적 해석 가능하여 실무 적용성 우수",
+          "implications": "EIA 담당자가 별도 통계 전문 지식 없이도 SDM을 보전 계획에 활용할 수 있는 실무 가이드라인 제공. 평균값 임계법을 표준으로 채택 가능",
+          "relevance": "비바리뱀 서식지 SDM 구축 시 임계값 선정 방법론의 직접적 참고 기준. 경관 스케일 서식지 손실 정량화에 즉시 적용 가능"
+        },
+        {
+          "title": "Designing a Climate Change Resilient Landscape Connectivity Network From a Multi-Species Perspective",
+          "meta": "Bedson C.P.E. 外 / Ecology and Evolution / 2025 / DOI: 10.1002/ece3.71956",
+          "objective": "기후변화 시나리오(현재·2050·2090)별로 잉글랜드 내 석회암·고지대 서식 15종의 경관 연결성 네트워크를 다종 통합 관점에서 설계하여 기후 복원력 높은 보전 네트워크 제안",
+          "method": "잉글랜드 전역 15종 SDM 구축 후 최소비용경로 기반 연결성 분석. SSP 기후 시나리오 적용. 연결성 흐름이 중첩되는 공간을 핵심 회랑으로 식별. Natural England 협력 연구",
+          "results": "① 현재 연결성은 잉글랜드 남부와 북부 Pennines에 집중. ② 2050·2090년에는 경관 투과성 증가로 연결성 확장 예상. ③ 다종 중첩 분석으로 공유 회랑 영역 도출 — 단일종 분석 대비 보전 효율 향상",
+          "implications": "다종 통합 연결성 네트워크 설계가 개별 종 분석보다 보전 효율적임을 실증. 기후변화 조건에서 연결성 유지를 위한 회랑 지역을 사전 확보할 필요 있음",
+          "relevance": "경관 연결성 분석 방법론(최소비용경로 + SDM 결합)을 비바리뱀 서식지 회랑 설계에 적용 가능한 참조 프레임워크. 기후 시나리오별 서식지 변화 예측에 활용 가능"
+        }
+      ]
+    },
+    {
+      "name": "파충류·양서류 보전 (Herpetology)",
+      "papers": [
+        {
+          "title": "Understanding Suitable Habitats and Anthropogenic Mortality Risks for King Cobras in Nepal",
+          "meta": "Baral R. 外 / Ecology and Evolution / 2025 / PMID: 40917258",
+          "objective": "네팔 내 킹코브라의 현재 기후적 서식 적합지를 앙상블 모델로 산출하고, 2050·2070년 기후변화 시나리오 하 서식지 변화 및 인위적 사망 위험 핫스팟을 예측하여 보전 우선지역 도출",
+          "method": "553개 출현 기록과 기후·지형 변수 기반 BIOMOD2 앙상블 모델(GBM, GAM, MaxEnt, GLM, Random Forest). SSP2-4.5 시나리오 적용. 94건 사망 기록(2000-2024) 공간 핫스팟 분석",
+          "results": "① 현재 적합 서식지 23,702 km²이며 60% 이상이 보호구역 외부. ② 2050년까지 적합 서식지 22% 감소 예상. ③ 동부 저지대·중산간 지역이 인위적 사망 핫스팟으로 확인됨",
+          "implications": "보호구역 외부 비공식 서식지 보전 필요성 강조. 인간-야생동물 갈등 지역 집중 관리 필요. 뱀류 보전에서 범위의 대부분이 보호구역 밖에 있음을 보여줌",
+          "relevance": "앙상블 SDM 기법(BIOMOD2) 및 사망 위험 핫스팟 공간 분석을 비바리뱀 로드킬·인간 갈등 위험지역 분석에 직접 적용 가능. 보호구역 내외 서식지 연속성 평가 방법론 참조"
+        },
+        {
+          "title": "Assessing Connectivity Thresholds Under Habitat Loss Scenarios for Threatened Amphibians and Squamate Reptiles in the Eastern Brazilian Amazon",
+          "meta": "Teixeira C. 外 / Ecology and Evolution / 2025 / DOI: 10.1002/ece3.71741",
+          "objective": "아마존 동부 경관에서 서식지 손실 수준이 14종 양서·파충류의 기능적 연결성에 미치는 영향을 평가하고, 연결성 붕괴 임계값이 국제 기준(30% 서식지 보전)과 일치하는지 검증",
+          "method": "위성 토지피복 데이터를 이용한 서식지 손실 시나리오 시뮬레이션(0-100%). 그래프 이론 기반 연결성 지수(PC, dPC) 산출. 14종 개별 분석 및 분산 능력별 비교 분석",
+          "results": "① 서식지 잔존율 32% 이하에서 광역 연결성 급격히 붕괴. ② 분산 능력 낮은 종일수록 더 높은 잔존율에서 임계값 도달. ③ 국제 30% 기준이 대체로 유효하나 종별 조정 필요",
+          "implications": "서식지 보전 30% 기준은 합리적이나 분산 능력 기반 종별 임계값 도출이 필요. 이동성이 낮은 뱀류에서 더 높은 서식지 보전율이 요구될 가능성 시사",
+          "relevance": "비바리뱀 서식지 보전 최소 면적 기준 설정에 직접 활용 가능. 경관 내 서식지 패치 연결성 분석 방법론의 벤치마크로 활용 가능"
+        }
+      ]
+    },
+    {
+      "name": "담수어류 보전 및 생태복원",
+      "papers": [
+        {
+          "title": "An updated review of fish species reintroductions: global lessons to inform future riverine fish conservation in the UK",
+          "meta": "Pearce R.H., Sayer C.D., Chadwick M.A. / Discover Conservation / 2026 / DOI: 10.1007/s44353-025-00072-w",
+          "objective": "1989년 이후 전 세계 담수어류 재도입 사례 324건을 종합 검토하여 성공·실패 요인을 분석하고, 영국에서 절멸한 버봇(Lota lota) 재도입을 위한 실천 가이드라인 제공",
+          "method": "1989-2023년 발표된 324건 어류 재도입 문헌 메타분석. IUCN 재도입 가이드라인 준거. 방류 전략, 서식지 품질, 유전적 다양성 등 성공 요인 코딩 및 통계 분석",
+          "results": "① 전체 사례 75%가 북미에 편중. ② 주요 실패 요인: 초기 위협 미해결, 방류 서식지 품질 불량, 공급 집단 유전 다양성 부족. ③ IUCN 가이드라인 준수 사례에서 성공률 유의하게 높음",
+          "implications": "재도입 전 서식지 위협 제거 및 생태 복원이 선결조건. 단일 공급 집단 의존 회피 필요. 담수 생태계 의존 멸종위기종 복원 시 생태계 기반 접근 요구",
+          "relevance": "서식지 의존 멸종위기 수생생물 복원 시 사전 서식지 평가·위협 제거의 중요성 재확인. 비바리뱀 서식 하천 생태계 복원 계획 수립 시 원칙적 지침으로 활용 가능"
+        },
+        {
+          "title": "Land Use Influences on Freshwater Biodiversity",
+          "meta": "Shen F. 外 / Global Ecology and Biogeography / 2026 / DOI: 10.1111/geb.70230",
+          "objective": "33개국 163개 연구의 종 수준 풍부도 데이터를 통합하여 도시·농업·임업 등 토지이용 유형이 담수 생물다양성 6개 분류군에 미치는 영향을 글로벌 스케일에서 정량화",
+          "method": "FreshLanDiv 글로벌 데이터베이스 활용. 메타분석 + 선형 혼합효과 모델. 조류, 대형식물, 동물플랑크톤, 저서무척추동물, 어류, 양서류 6개 분류군 분석 (163개 연구, 33개국)",
+          "results": "① 모든 토지이용 유형에서 종 풍부도 감소 (도시 > 농업 > 임업 순 영향). ② 도시화만이 생물상 균질화(biotic homogenization)와 연관. ③ 담수 생태계는 육상 생태계와 다른 토지이용 반응 경로를 따름",
+          "implications": "토지이용 규제 정책은 육상 생태계 기준을 담수에 단순 적용 불가. 도시화가 담수 생태계에 미치는 특수 영향에 대한 별도 규제 접근 필요",
+          "relevance": "비바리뱀 서식 하천 유역 토지이용 변화가 서식지 생태계 건강성에 미치는 영향 평가 시 글로벌 비교 기준으로 활용 가능. 도시 인근 서식지 관리 계획 수립의 근거"
+        },
+        {
+          "title": "Grasping at water: a gap-oriented approach to bridging shortfalls in freshwater biodiversity conservation",
+          "meta": "van Rees C.B., Geist J., Arthington A.H. / Biological Reviews / 2025 / DOI: 10.1111/brv.70030",
+          "objective": "담수 생물다양성 보전에서 인벤토리·보전 증거·거버넌스·경제개발 관련 핵심 격차(gap)를 체계화하고, 이를 극복하기 위한 통합적 행동 방향 13개 제시",
+          "method": "전문가 컨퍼런스 세션 결과물 및 최신 문헌 종합 검토. 13개 핵심 격차 도출 및 분류·우선순위화. Linnaean shortfall, Wallacean shortfall 개념 적용",
+          "results": "① 담수 생물다양성은 지구 생물상 중 가장 빠른 감소 속도. ② 인벤토리 데이터 부족이 가장 근본적 장벽. ③ 다중 스케일 거버넌스 실패가 보전 효과를 저해함",
+          "implications": "담수 보전에서 데이터 수집·모니터링 강화가 최우선 과제. 지역·국가·국제 거버넌스 통합 필요. 기초 인벤토리 없이는 효과적 보전 불가",
+          "relevance": "멸종위기 수생 환경 의존 종 보전에서 데이터 갭 해소의 필요성 확인. 비바리뱀 서식 환경 인벤토리 및 장기 모니터링 계획 수립의 학술적 근거 제공"
+        }
+      ]
+    },
+    {
+      "name": "원격탐사 및 공간분석",
+      "papers": [
+        {
+          "title": "A Neighborhood Approach for Using Remotely Sensed Data to Estimate Current Ranges for Conservation Assessments",
+          "meta": "Johnson B.A., Pinilla-Buitrago G.E., Anderson R.P. / Ecology and Evolution / 2025 / DOI: 10.1002/ece3.71631",
+          "objective": "위성 원격탐사 데이터 활용 서식지 특성화에서 개별 픽셀의 고해상도를 유지하면서 주변 경관(neighborhood) 정보를 통합하는 새 방법론 개발 및 IUCN 적색목록 평가 적용 검증",
+          "method": "고해상도 위성 이미지에서 각 픽셀 중심 이웃 반경 내 서식지 특성(숲 피복률 등)을 통계 요약하는 neighborhood approach 개발. 멕시코 산림 의존 소형 포유류(Handleyomys chapmani)에 적용·검증. 오픈소스 R 패키지 배포",
+          "results": "① 이웃 분석법이 개별 픽셀법보다 SDM 예측 정확도 향상. ② IUCN 범위 추정에서 서식지 품질 반영이 개선됨. ③ 오픈소스 코드로 배포되어 즉시 적용 가능",
+          "implications": "원격탐사 기반 서식지 평가에서 국지적 서식지 특성과 경관 맥락을 동시에 고려하는 새 표준 제시. IUCN 위기종 평가의 범위 추정 정확도 향상에 기여",
+          "relevance": "비바리뱀 서식지 원격탐사 기반 정밀 모델링에서 픽셀 스케일 서식지 이질성 반영 방법론으로 직접 활용 가능. 고해상도 위성 자료 + neighborhood 분석 결합 방법 검토 권장"
+        }
+      ]
+    }
+  ],
+  "zotero": [
+    {
+      "title": "Thresholding species distribution models: Simple approaches for land-use planning in multifunctional landscapes",
+      "author": "Abdel Moniem H. 外",
+      "journal": "Methods in Ecology and Evolution",
+      "year": "2026",
+      "doi": "10.1111/2041-210x.70226"
+    },
+    {
+      "title": "Designing a Climate Change Resilient Landscape Connectivity Network From a Multi-Species Perspective",
+      "author": "Bedson C.P.E. 外",
+      "journal": "Ecology and Evolution",
+      "year": "2025",
+      "doi": "10.1002/ece3.71956"
+    },
+    {
+      "title": "Understanding Suitable Habitats and Anthropogenic Mortality Risks for King Cobras in Nepal",
+      "author": "Baral R. 外",
+      "journal": "Ecology and Evolution",
+      "year": "2025",
+      "doi": "PMID:40917258"
+    },
+    {
+      "title": "Assessing Connectivity Thresholds Under Habitat Loss Scenarios for Threatened Amphibians and Squamate Reptiles in the Eastern Brazilian Amazon",
+      "author": "Teixeira C. 外",
+      "journal": "Ecology and Evolution",
+      "year": "2025",
+      "doi": "10.1002/ece3.71741"
+    },
+    {
+      "title": "An updated review of fish species reintroductions: global lessons to inform future riverine fish conservation in the UK",
+      "author": "Pearce R.H., Sayer C.D., Chadwick M.A.",
+      "journal": "Discover Conservation",
+      "year": "2026",
+      "doi": "10.1007/s44353-025-00072-w"
+    },
+    {
+      "title": "Land Use Influences on Freshwater Biodiversity",
+      "author": "Shen F. 外",
+      "journal": "Global Ecology and Biogeography",
+      "year": "2026",
+      "doi": "10.1111/geb.70230"
+    },
+    {
+      "title": "Grasping at water: a gap-oriented approach to bridging shortfalls in freshwater biodiversity conservation",
+      "author": "van Rees C.B., Geist J., Arthington A.H.",
+      "journal": "Biological Reviews",
+      "year": "2025",
+      "doi": "10.1111/brv.70030"
+    },
+    {
+      "title": "A Neighborhood Approach for Using Remotely Sensed Data to Estimate Current Ranges for Conservation Assessments",
+      "author": "Johnson B.A., Pinilla-Buitrago G.E., Anderson R.P.",
+      "journal": "Ecology and Evolution",
+      "year": "2025",
+      "doi": "10.1002/ece3.71631"
+    }
+  ]
+}
