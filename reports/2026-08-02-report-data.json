@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-02",
+  "total_papers": 4,
+  "total_fields": 2,
+  "top3": [
+    {
+      "title": "Accounting for imperfect detection reveals terrain slope as key driver of occupancy for the fossorial snake Conopsis lineata in central Mexico",
+      "reason": "경사도 기반 점유모델링(occupancy modeling)은 GIS 서식지 분석과 직결되며, 비바리뱀 같은 은신성 뱀류의 탐지 편의(imperfect detection)를 보정하는 방법론으로 즉시 적용 가능."
+    },
+    {
+      "title": "Optimizing biodiversity offsetting for habitat succession and colonization dynamics",
+      "reason": "서식지 복원·재도입 사업이 장기적으로 성공하려면 보호 기간과 부지 연결성이 핵심임을 시뮬레이션으로 제시 — 담당 종 서식지 복원 계획 수립에 실무적 참고가 됨."
+    },
+    {
+      "title": "Urban snake ecology revealed through the lens of decadal data on snake rescues in a megacity",
+      "reason": "10년간 축적된 뱀 구조 기록을 이용한 장기 모니터링 사례로, 뱀 개체군 장기 추적 체계 설계 및 데이터 축적 전략에 참고할 방법론 제공."
+    }
+  ],
+  "fields": [
+    {
+      "name": "뱀 서식지 생태 및 개체군 모니터링",
+      "papers": [
+        {
+          "title": "Accounting for imperfect detection reveals terrain slope as key driver of occupancy for the fossorial snake Conopsis lineata in central Mexico",
+          "meta": "Cruz-Arroyave, Yáñez-Arenas, Zúñiga-Vega, Pérez-Mendoza / Herpetological Journal Vol.36(3), pp.169-178 / 2026 / DOI 미확인(BHS 학회지, 오픈 DOI 미게시)",
+          "objective": "멕시코 중부에 서식하는 위협받는 굴서식성 뱀 Conopsis lineata의 서식지 점유율과 탐지 확률에 영향을 미치는 환경 요인 규명",
+          "method": "2024년 5~10월 멕시코시티 남부 30개 트랜섹트 반복조사, 단일시즌 점유모델(single-season occupancy model)로 탐지확률과 점유율을 분리해 지형·서식지 변수와의 관계 분석",
+          "results": "1) 점유율은 경사도에 의해 강하게 결정되며 30도 미만의 완만한 지역에 국한됨 2) 탐지확률은 은신처(cover object) 밀도와 미소서식지 온도가 좌우 3) 탐지 불완전성을 보정하지 않으면 서식지 요인이 왜곡될 수 있음을 입증",
+          "implications": "지형 기반 서식지 적합성 모델에 경사도 변수 포함이 필수적이며, 조사 설계 시 탐지확률 보정이 서식지 관리 우선순위 판단의 정확도를 좌우함",
+          "relevance": "비바리뱀 등 은신성·굴서식성 파충류의 GIS 서식지 분석에 직접 적용 가능한 점유모델링 방법론. 경관생태학적 지형 변수(경사도) 중요성을 뒷받침."
+        },
+        {
+          "title": "Frequency of caudal pseudoautotomy in the Neotropical parrot snake Leptophis marginatus (Serpentes, Colubridae)",
+          "meta": "Tsai, Martins, de Albuquerque / The Herpetological Journal Vol.36(3) / 2026 / DOI 미확인",
+          "objective": "신대륙 콜루브리드 뱀 Leptophis marginatus의 꼬리 자절(위자절, pseudoautotomy) 발생 빈도 및 특성 파악",
+          "method": "박물관 표본 및 현장 채집 개체 총 151마리 대상 꼬리 손상 흔적 조사, 성별 간 차이 검정",
+          "results": "1) 개체의 38.4%에서 꼬리 자절 흔적 확인 2) 성별 간 유의한 차이 없음 3) 해당 종 최초의 정량적 자절 빈도 자료 제공",
+          "implications": "방어기작(포식압) 및 개체군 건강도 평가 지표로 활용 가능한 기초 자료 제공",
+          "relevance": "국내 비바리뱀 개체군에서도 유사한 방어형질(꼬리 손상 등) 조사를 병행하면 포식압·개체군 건강도 평가에 참고 가능."
+        },
+        {
+          "title": "Urban snake ecology revealed through the lens of decadal data on snake rescues in a megacity",
+          "meta": "인도 CSIR-CCMB · Friends of Snakes Society 공동연구팀(개별 저자명 원문 확인 필요) / Global Ecology and Conservation Vol.68, e04233 / 2026 / DOI 10.1016/j.gecco.2026.e04233",
+          "objective": "인도 하이데라바드의 10년간 뱀 구조 기록을 활용해 도시화가 뱀 군집 구조와 인간-뱀 상호작용에 미치는 영향 분석",
+          "method": "2013~2022년 총 55,467건의 뱀 구조 기록을 종별·연도별·계절별로 분석, 도시 확장·토지이용 변화와의 상관관계 검토",
+          "results": "1) 코브라(Naja naja) 비중이 2013년 42%→2022년 48%로 증가 2) 전체 구조 건수 10년간 약 16.9% 증가(연 8~10%) 3) Naja naja·Ptyas mucosa 두 종이 전체 구조의 76% 차지, 몬순기(7~11월)에 집중",
+          "implications": "장기 시민과학·구조 데이터가 도시 생태계 파충류 개체군 동태 추적의 유용한 프록시가 될 수 있음을 시사",
+          "relevance": "장기 모니터링 데이터셋 구축·분석 방법론이 비바리뱀 서식지 모니터링 체계 설계에 참고 가능. 다만 열대 도시종 사례로 직접 적용성은 제한적."
+        }
+      ]
+    },
+    {
+      "name": "보전생물학 - 서식지 복원 및 종분포모델",
+      "papers": [
+        {
+          "title": "Optimizing biodiversity offsetting for habitat succession and colonization dynamics",
+          "meta": "Wells, K. et al.(Swansea University 주도, UKCEH·Forest Research 공동) / Conservation Biology / 2026-07-17 online / DOI 10.1111/cobi.70362",
+          "objective": "생물다양성 상쇄(오프셋) 정책에서 서식지 천이 및 종의 정착 동태를 함께 고려했을 때 장기적 순이익(net gain) 달성 조건 규명",
+          "method": "산림 천이를 반영한 개념적 모델로 보상 규모, 보호 지속기간, 서식지 전환율, 가용 토지 제약의 상호작용이 상쇄 결과에 미치는 영향을 시뮬레이션",
+          "results": "1) 서식지 성숙도와 메타개체군 동태를 함께 고려하지 않으면 상쇄 효과가 과대평가될 위험 2) 보호기간이 짧거나 부지가 파편화되면 장기 순이익 달성 실패 확률 높음 3) 충분한 보호기간과 연결성 있는 부지 배치가 성공의 핵심",
+          "implications": "서식지 복원·상쇄 기반 보전 정책 설계 시 생태적 천이의 시간 스케일과 개체군 연결성을 반드시 함께 고려해야 함",
+          "relevance": "비바리뱀 서식지 복원·재도입 사업의 장기 성과 평가 및 부지 선정(연결성·보호기간) 전략 수립에 직접적 시사점 제공."
+        }
+      ]
+    }
+  ],
+  "zotero": [
+    {"title": "Accounting for imperfect detection reveals terrain slope as key driver of occupancy for the fossorial snake Conopsis lineata in central Mexico", "author": "Cruz-Arroyave et al.", "journal": "The Herpetological Journal", "year": "2026", "doi": ""},
+    {"title": "Frequency of caudal pseudoautotomy in the Neotropical parrot snake Leptophis marginatus (Serpentes, Colubridae)", "author": "Tsai et al.", "journal": "The Herpetological Journal", "year": "2026", "doi": ""},
+    {"title": "Urban snake ecology revealed through the lens of decadal data on snake rescues in a megacity", "author": "CCMB & Friends of Snakes Society team", "journal": "Global Ecology and Conservation", "year": "2026", "doi": "10.1016/j.gecco.2026.e04233"},
+    {"title": "Optimizing biodiversity offsetting for habitat succession and colonization dynamics", "author": "Wells, K. et al.", "journal": "Conservation Biology", "year": "2026", "doi": "10.1111/cobi.70362"}
+  ]
+}
