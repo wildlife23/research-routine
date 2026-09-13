@@ -29,6 +29,15 @@ def create_weekly_review(content_json):
 
     doc.add_paragraph()
 
+    # 안내/한계 고지 (선택 필드)
+    if data.get('notice'):
+        notice_para = doc.add_paragraph()
+        notice_run = notice_para.add_run(f"[안내] {data['notice']}")
+        notice_run.italic = True
+        notice_run.font.size = Pt(9)
+        notice_run.font.color.rgb = RGBColor(0xaa, 0x55, 0x00)
+        doc.add_paragraph()
+
     # 요약 통계 박스
     doc.add_heading('이번 주 요약', level=1)
     table = doc.add_table(rows=1, cols=3)
