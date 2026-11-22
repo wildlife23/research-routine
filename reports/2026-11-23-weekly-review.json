@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-23",
+  "total_papers": 9,
+  "total_fields": 5,
+  "top3": [
+    {"title": "Exploring Snake Species Diversity, Habitat Suitability, and Threats in Two Protected Forests of Southeastern Bangladesh Using Field Observations and Ensemble Learning (Ecology and Evolution, 2026)", "reason": "현장조사 + 앙상블 머신러닝 서식지 적합성 모델을 뱀 군집에 적용한 최신 사례로, 비바리뱀 서식지 적합성 분석(SDM) 설계에 방법론을 그대로 참고할 수 있음. 기후 계절성이 주요 결정요인이라는 결과는 제주 기후 변수 선정에 시사점."},
+    {"title": "Aussie Ark·UTS 브로드헤디드스네이크(Hoplocephalus bungaroides) 증식개체 야생 방사 파일럿 (2026.11 보도)", "reason": "포획 증식 뱀의 야생 방사 성공 사례는 세계적으로 드물며(호주 두 번째, 첫 시도는 포식으로 실패), 서식지 복원지 방사 + 2주 간격 사후 모니터링 체계는 비바리뱀 증식·복원 계획의 직접적 벤치마크. 단, 동료심사 논문이 아닌 예비 결과임."},
+    {"title": "The recovery potential of small populations (Proc. R. Soc. B, 2026)", "reason": "야생 개체수 50 미만으로 감소한 조류·포유류 141종 분석에서 직접적 보전조치를 받은 종의 61%가 100개체 이상으로 회복. 극소개체군인 멸종위기종에 대한 '트리아지 포기' 논리에 반박 근거를 제공하여 비바리뱀 복원사업 정당성 논거로 활용 가능."}
+  ],
+  "fields": [
+    {
+      "name": "파충류·뱀 서식지 (Herpetology / Snake habitat)",
+      "papers": [
+        {
+          "title": "Exploring Snake Species Diversity, Habitat Suitability, and Threats in Two Protected Forests of Southeastern Bangladesh Using Field Observations and Ensemble Learning\n(방글라데시 남동부 두 보호림의 뱀 종다양성·서식지 적합성·위협요인: 현장관찰과 앙상블 학습 활용)",
+          "meta": "Rana et al. / Ecology and Evolution / 2026 (2026-11-17 온라인 게재) / 10.1002/ece3.74697 | 분야태그: 파충류, SDM, 보호지역 | 후속 검토 필요: 예",
+          "objective": "방글라데시 남동부 보호림 2곳의 뱀 다양성을 파악하고, 서식지 적합성 결정요인과 위협요인을 규명.",
+          "method": "현장 조우조사(encounter survey) 기반 출현자료 수집 후, 여러 머신러닝 알고리즘을 결합한 앙상블 서식지 적합성 모델 적용; 위협요인 평가 병행.",
+          "results": "① 2개 조사지에서 8과 23속 36종 208개체 기록. ② 앙상블 모델에서 기후 계절성이 뱀 출현의 주요 결정요인으로 나타남. ③ 보호림 내에서도 서식지 훼손·인간-뱀 갈등 등 위협이 확인됨(세부 수치는 원문 확인 필요).",
+          "implications": "보호지역 관리계획에 종 단위가 아닌 뱀 군집 단위의 서식지 적합성 지도를 반영할 수 있음. 기후 계절성 의존성은 기후변화 시나리오 하 서식지 이동 평가 필요성을 시사.\n[스토리텔링] 배경: 열대 아시아 뱀류의 분포·위협 자료 부족 → 목적: 보호림 내 다양성·적합 서식지 파악 → 필요 방법: 출현자료+환경변수 모델링 → 선택 방법: 현장관찰+앙상블 ML → 결과: 36종, 기후 계절성 핵심 → 결론: 보호림의 뱀 보전가치 확인 → 한계: 2개 지역·탐지율 미보정 가능성(원문 확인 필요).",
+          "relevance": "비바리뱀처럼 탐지율이 낮은 소형 뱀의 출현자료로 앙상블 SDM을 구축하는 설계 참고. 제주 기후 계절성 변수(BIO4, BIO15 등) 투입 여부 검토에 직접 활용 가능. ※ Wiley 원문 접속 불가로 검색 요약 기반 작성."
+        },
+        {
+          "title": "전 세계 유린목(뱀·도마뱀·지렁이도마뱀)의 암석 서식지 의존성과 보호 공백 (Conservation Letters 리뷰)\n(A quarter of the world's reptiles use rocky habitats)",
+          "meta": "저자 미확인(호주 연구진 추정) / Conservation Letters / 2026 (2026-11-13 보도, 7일 범위 직전) / DOI 미확인 | 분야태그: 파충류, 미소서식지, 보호지역 | 후속 검토 필요: 예",
+          "objective": "전 세계 육상 유린목 중 암석 서식지를 이용·의존하는 종의 비율을 정량화하고 보호 현황을 평가.",
+          "method": "전 지구 종 단위 서식지 문헌·데이터베이스 종합 리뷰.",
+          "results": "① 전 세계 육상 유린목의 4분의 1 이상이 암석 서식지를 이용. ② 10% 이상은 암석 서식지에 전적으로 의존(관련 학위논문 기준). ③ 암석 서식지는 이해도가 낮고 보호가 미흡함.",
+          "implications": "농업 집약화에 따른 암석 제거, 채석 등이 파충류 감소의 과소평가된 요인. 보호지역 지정·서식지 평가에서 암석 미소서식지를 별도 항목으로 다뤄야 함.\n[스토리텔링] 배경: 암석 서식지가 숲·습지에 비해 정책적으로 간과됨 → 목적: 의존 종 비율 정량화 → 방법: 전 지구 리뷰 → 결과: 25%+ 이용 → 결론: 보호 확대 필요 → 한계: 원문 미확인으로 세부 불명.",
+          "relevance": "제주 곶자왈·돌담·용암지대 등 암석 미소서식지는 비바리뱀 서식지 분석 시 핵심 변수 후보. 돌담·암괴 분포를 GIS 레이어로 구축하는 근거 문헌으로 활용 가능."
+        }
+      ]
+    },
+    {
+      "name": "양서류 보전 (Amphibian conservation)",
+      "papers": [
+        {
+          "title": "Meta-analysis shows that immunization reduces amphibian susceptibility to the chytrid fungus\n(메타분석: 면역화가 양서류의 항아리곰팡이 감수성을 낮춤)",
+          "meta": "Chung M-HJ, Duncan RP, Noble DWA, Scheele BC, Clulow S (프리프린트 기준) / Nature Ecology & Evolution / 2026 (2026-11-20 게재) / 10.1038/s41559-026-03221-z | 분야태그: 양서류, 질병, 메타분석 | 후속 검토 필요: 예",
+          "objective": "Bd(항아리곰팡이) 면역화(사전 노출) 처리의 효과를 전 지구적으로 종합 평가.",
+          "method": "36개 연구·53개 실험·22종에서 추출한 200여 개 효과크기를 메타분석(생존, 감염률, 감염량 등).",
+          "results": "① 살아있는 Bd, 무세포 대사물, 합성 항기생충제로 면역화된 개체는 재노출 시 질병 감수성이 일관되게 감소. ② 효과는 질병 단계·생활사 단계·분류군에 따라 상이. ③ 생균 면역화는 감염률(prevalence)에는 영향이 없었으나 감염량(load)은 감소.",
+          "implications": "증식·방사 프로그램에서 방사 전 면역화를 표준 절차로 검토할 근거. 다만 종·생활사별 반응 차이로 대상종 사전 시험 필요.\n[스토리텔링] 배경: 항아리곰팡이로 인한 전 지구 양서류 감소 → 목적: 면역화의 일반적 효과 검증 → 필요 방법: 산재된 실험결과 통합 → 선택 방법: 메타분석 → 결과: 감수성 감소, 이질성 큼 → 결론: 유망한 관리 도구 → 한계: 실험실 위주, 야외 효과 불확실.",
+          "relevance": "양서류 석사 배경과 연결. 국내 멸종위기 양서류(금개구리, 수원청개구리 등) 증식·방사 시 질병관리 프로토콜 설계에 참고."
+        },
+        {
+          "title": "남방코로보리개구리(Pseudophryne corroboree)의 항아리곰팡이 감염 후 생존의 유전성과 유전체 기반 선발육종\n(Genomic selection for chytrid survival in the southern corroboree frog)",
+          "meta": "Davidson M, …, Skerratt L (University of Melbourne) / npj Biodiversity / 2026 (2026-11-18 보도) / DOI 미확인 | 분야태그: 양서류, 보전유전체학, 증식 | 후속 검토 필요: 예",
+          "objective": "야생에서 기능적 절멸 상태인 남방코로보리개구리에서 Bd 감염 후 생존 기간의 유전성을 추정하고, 유전체 선발을 증식 프로그램에 적용 가능한지 평가.",
+          "method": "Zoos Victoria·Taronga 증식 개체군의 감염 실험 생존자료 + 유전체 자료로 유전력 추정, 선발육종 시나리오 모델링.",
+          "results": "① 감염 후 생존 기간에 개체 간 변이가 있으며 일부는 유전됨. ② 유전체 정보로 교배를 설계하면 다음 세대 평균 생존 기간이 약 9% 증가할 것으로 예측. ③ 근친교배를 억제하면서 선발 가능함을 제시.",
+          "implications": "증식 프로그램이 단순 개체 수 유지가 아닌 '적응적 형질 강화'의 장으로 기능할 수 있음. 실험실 생존이 야생 생존으로 이어지는지 검증이 남아 있음.\n[스토리텔링] 배경: 야생 개체군 질병으로 붕괴 → 목적: 저항성 선발 가능성 검증 → 방법: 유전체+감염실험 → 결과: 유전력 확인·9% 개선 예측 → 결론: 유전체 선발 유망 → 한계: 후속 세대·야외 검증 미실시.",
+          "relevance": "비바리뱀 증식 개체군 관리에서 유전체 정보 활용(근교약세 관리, 형질 선발) 가능성 검토 시 참고 사례."
+        }
+      ]
+    },
+    {
+      "name": "멸종위기종 회복·재도입 (Species recovery / Reintroduction)",
+      "papers": [
+        {
+          "title": "The recovery potential of small populations\n(극소 개체군의 회복 잠재력)",
+          "meta": "Monash University·Zoological Society of London 공동연구진 / Proceedings of the Royal Society B / 2026 (2026-11 게재) / 10.1098/rspb.2026.2436 | 분야태그: 멸종위기종, 개체군 회복, 보전정책 | 후속 검토 필요: 예",
+          "objective": "1950년 이후 야생 개체수 50 미만으로 감소한 조류·포유류의 이후 궤적을 분석해 극소 개체군의 회복 가능성과 보전조치의 효과를 평가.",
+          "method": "충분한 개체수 이력이 있는 141종의 시계열 자료를 보전조치 유무로 비교 분석.",
+          "results": "① 141종 중 51종이 직접적 보전조치를 받았고, 그중 61%가 100개체 이상으로 회복. ② 직접 지원이 없던 종은 37%가 절멸, 회복은 2%에 불과. ③ 회복 여부는 현재 개체수보다 감소요인 제거 여부에 좌우됨.",
+          "implications": "개체수가 극히 적다는 이유로 종을 포기하는 '트리아지' 접근에 반대 근거. 위협 제거+직접적 개체군 지원(증식·방사)의 병행 필요.\n[스토리텔링] 배경: 극소 개체군은 유전적·인구학적으로 회복 불가하다는 통념 → 목적: 실증 검증 → 방법: 141종 이력 분석 → 결과: 조치 시 61% 회복 → 결론: 포기하지 말 것 → 한계: 조류·포유류 한정, 파충류·양서류에 일반화 주의, 인구학적 회복≠유전적 회복.",
+          "relevance": "비바리뱀 등 극소 개체군 복원사업의 예산·정책 정당성 논거로 인용 가능. 파충류 미포함이라는 한계는 후속 연구 주제(국내 파충류 회복 궤적 분석)로 발전 가능."
+        },
+        {
+          "title": "포획 증식 브로드헤디드스네이크(Hoplocephalus bungaroides)의 세계 최초 야생 방사 성공 (파일럿)\n(World-first successful wild release of endangered broad-headed snake)",
+          "meta": "Webb J (UTS) & Aussie Ark / 기관 보도자료(UTS News, Aussie Ark) / 2026-11 / DOI 없음(비동료심사 예비결과) | 분야태그: 뱀, 재도입, 증식·방사 | 후속 검토 필요: 예",
+          "objective": "포획 증식한 멸종위기 독사 유체를 복원된 서식지에 방사하여 초기 생존 가능성을 시험.",
+          "method": "2024년 10월부터 증식한 8개체 중 6개체를 2026년 5월 서식지 복원지(시드니 분지)에 방사, 2주 간격 사후 모니터링. 인공 암석 등 서식지 복원 병행.",
+          "results": "① 방사 후 가장 위험한 초기 수개월 동안 최소 6개체 중 4개체 생존(UTS 기준; Aussie Ark는 6개체 모두 생존 가능성 높다고 발표). ② 호주에서 포획 출생 뱀의 두 번째 야생 방사이며 첫 시도는 포식으로 실패. ③ 유전적 가치가 높은 2개체는 증식 개체군에 보존.",
+          "implications": "뱀 재도입은 포식·분산으로 실패율이 높은데, 서식지 복원지(인공 은신처) 연계 방사로 초기 생존을 확보할 수 있음을 시사. 같은 시기 SF Zoo의 샌프란시스코가터뱀 62개체 방사(2026-11)도 유사 사례.\n[스토리텔링] 배경: 서식지 암석 제거로 급감 → 목적: 증식개체 방사 가능성 시험 → 방법: 소규모 방사+집중 모니터링 → 결과: 초기 생존 양호 → 결론: 향후 재도입 지침화 → 한계: 표본 6개체, 단기, 동료심사 전.",
+          "relevance": "비바리뱀 증식·방사 계획에 가장 직접적인 벤치마크. 방사 개체 수, 모니터링 주기, 은신처 조성 방식을 프로토콜 설계에 참고. 정식 논문 출판 시 추적 필요."
+        }
+      ]
+    },
+    {
+      "name": "담수어류·서식지 복원 (Freshwater fish / Habitat restoration)",
+      "papers": [
+        {
+          "title": "Successful restoration of fish migration requires more than fish passes\n(어류 이동 복원의 성공에는 어도 이상의 것이 필요하다)",
+          "meta": "Panagiotopoulos P / Wageningen University & Research 박사학위논문 / 2026 (2026-11-05 발표, 7일 범위 밖) / DOI 미확인 | 분야태그: 담수어류, 하천 연결성, 어도 | 후속 검토 필요: 아니오",
+          "objective": "네덜란드 하천 어도의 종별 효과와 운영·관리 요인을 평가.",
+          "method": "네덜란드 하천·계류의 어도 82개소 어류 이용 자료 분석, 연속 장벽·유량·유지관리 요인 검토.",
+          "results": "① 주변 수역 토착종 38종 중 35종이 어도에서 확인. ② 종별 효과 차이 큼(바다송어는 여러 장벽 통과, 모캐는 효과 낮음). ③ 나뭇가지·낙엽·수초에 의한 막힘과 봄철 집중 유지관리가 다른 시기 효과를 저하.",
+          "implications": "어도 설치만으로는 어류 군집 회복이 보장되지 않으며, 연중 유지관리와 수량관리, 가뭄 대응이 필수.\n[스토리텔링] 배경: 장벽에 의한 회유 단절 → 목적: 어도 실효성 평가 → 방법: 82개소 모니터링 → 결과: 대부분 종 이용, 종·시기별 편차 → 결론: 관리 통합 필요 → 한계: 군집 회복과의 인과 연결 제한.",
+          "relevance": "하천 연결성 분석을 경관생태학적 '구조적 연결성 vs 기능적 연결성' 관점에서 해석할 사례. 국내 담수어류 복원 협업 시 참고."
+        },
+        {
+          "title": "Fish habitat restoration and interannual variability in intensively monitored watersheds\n(집중 모니터링 유역에서의 어류 서식지 복원과 연간 변동성)",
+          "meta": "저자 원문 확인 필요 / Frontiers in Ecology and Evolution / 2026 / 10.3389/fevo.2026.1745980 (게재일 미확인) | 분야태그: 담수어류, 서식지 복원, 장기모니터링 | 후속 검토 필요: 아니오",
+          "objective": "미국 서부 워싱턴 10개 유역에서 복원 목표 서식지 지표의 장기 추세와 연간 변동을 평가.",
+          "method": "2004–2024년 무작위 선정 수백 개 하도 구간의 연례 서식지 조사 자료를 추세 분석.",
+          "results": "① 크고 유리한 서식지 개선 추세는 드묾. ② 복원에서 흔히 목표로 하는 지표에서 작은 추세 다수 확인. ③ 하천 서식지의 연간 변동을 고려하지 않으면 복원 효과 평가가 왜곡될 수 있음.",
+          "implications": "복원 효과 평가 시 장기·무작위 표본 설계와 연간 변동 보정이 필수.\n[스토리텔링] 배경: 연어과 서식지 복원 투자 대비 효과 불명 → 목적: 유역 규모 추세 검증 → 방법: 20년 무작위 모니터링 → 결과: 효과 미약 → 결론: 변동성 고려 평가 → 한계: 연어과 중심.",
+          "relevance": "비바리뱀 서식지 복원 효과 모니터링 설계(무작위 표본, 연간 변동 보정)에 응용 가능."
+        }
+      ]
+    },
+    {
+      "name": "원격탐사·공간분석 (Remote sensing / Spatial analysis)",
+      "papers": [
+        {
+          "title": "sam-stars: 초고해상도 위성영상과 항공 LiDAR를 결합한 수관 분할 및 수종 지도화\n(sam-stars: tree crown delineation and species mapping with fewer annotations)",
+          "meta": "저자 원문 확인 필요 / Remote Sensing in Ecology and Conservation / 2026 (2026-11-09 온라인 게재, 7일 범위 밖) / DOI 미확인 | 분야태그: 원격탐사, LiDAR, 서식지 지도화 | 후속 검토 필요: 예",
+          "objective": "적은 학습 라벨로 개별 수관을 분할하고 수종을 지도화하는 방법 개발.",
+          "method": "Segment Anything 계열 분할 모델 + 초고해상도 위성영상 + 항공 LiDAR 결합.",
+          "results": "① 위성영상·LiDAR 결합으로 수관 경계 분할 정확도 향상. ② 학습 주석량을 줄이면서 수종 지도화 가능. ③ 대면적 산림 구조 모니터링에 확장 가능(세부 수치는 원문 확인 필요).",
+          "implications": "미세 규모 서식지 구조(수관·임연부)를 저비용으로 지도화하여 서식지 모델의 환경변수 해상도를 높일 수 있음.\n[스토리텔링] 배경: 개체목 수준 지도화에 막대한 라벨 필요 → 목적: 라벨 효율적 방법 → 방법: 파운데이션 모델+LiDAR → 결과: 적은 라벨로 성능 확보 → 한계: 검증 지역 제한 가능성.",
+          "relevance": "곶자왈 등 비바리뱀 서식 산림의 미세 구조(수관 개방도, 임연부)를 GIS 변수로 생성하는 데 응용 가능. 제주 LiDAR·드론 자료 활용 아이디어."
+        }
+      ]
+    }
+  ],
+  "zotero": [
+    {"title": "Exploring Snake Species Diversity, Habitat Suitability, and Threats in Two Protected Forests of Southeastern Bangladesh Using Field Observations and Ensemble Learning", "author": "Rana et al.", "journal": "Ecology and Evolution", "year": "2026", "doi": "10.1002/ece3.74697"},
+    {"title": "(Rock habitat use by the world's squamates) – 원문 제목 확인 필요", "author": "미확인", "journal": "Conservation Letters", "year": "2026", "doi": "미확인"},
+    {"title": "Meta-analysis shows that immunization reduces amphibian susceptibility to the chytrid fungus", "author": "Chung M-HJ et al.", "journal": "Nature Ecology & Evolution", "year": "2026", "doi": "10.1038/s41559-026-03221-z"},
+    {"title": "(Genomic selection for chytrid survival in southern corroboree frog) – 원문 제목 확인 필요", "author": "Davidson M et al.", "journal": "npj Biodiversity", "year": "2026", "doi": "미확인"},
+    {"title": "The recovery potential of small populations", "author": "Monash Univ. & ZSL 연구진", "journal": "Proceedings of the Royal Society B", "year": "2026", "doi": "10.1098/rspb.2026.2436"},
+    {"title": "World-first successful wild release of endangered broad-headed snake (보도자료)", "author": "Webb J / Aussie Ark", "journal": "UTS News", "year": "2026", "doi": "-"},
+    {"title": "Successful restoration of fish migration requires more than fish passes (PhD)", "author": "Panagiotopoulos P", "journal": "Wageningen University & Research", "year": "2026", "doi": "미확인"},
+    {"title": "Fish habitat restoration and interannual variability in intensively monitored watersheds", "author": "미확인", "journal": "Frontiers in Ecology and Evolution", "year": "2026", "doi": "10.3389/fevo.2026.1745980"},
+    {"title": "sam-stars (tree crown delineation, satellite + LiDAR)", "author": "미확인", "journal": "Remote Sensing in Ecology and Conservation", "year": "2026", "doi": "미확인"}
+  ]
+}
